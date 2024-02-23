@@ -1,0 +1,88 @@
+Assignment Submission
+       Unit: cosc330
+ Assignment: a1
+   Username: bwatso25
+     Who is: Bryce Watson <bwatso25@myune.edu.au>
+       Date: Mon 31 Jul 2023 23:23:35 AEST
+----------------------------------------------------------------
+Files submitted:
+-rw-r--r--. 1 bwatso25 bwatso25 6.2K Jul 31 23:15 char_count.c
+-rw-r--r--. 1 bwatso25 bwatso25  11K Jul 31 23:15 helpers.c
+-rw-r--r--. 1 bwatso25 bwatso25 6.5K Jul 31 23:15 helpers.h
+-rw-r--r--. 1 bwatso25 bwatso25  303 Jul 20 13:28 makefile
+----------------------------------------------------------------
+Script of session:
+Script started on 2023-07-31 23:23:02+10:00 [TERM="xterm-256color" TTY="/dev/pts/11" COLUMNS="316" LINES="21"]
+]0;bwatso25@turing:~/Desktop/cosc330_2023/assignment_1[?2004h[36m[[m[34mbwatso25@turing[m [32massignment_1[m[36m][m $ make clean
+[?2004lrm -f *~ *.o char_count
+]0;bwatso25@turing:~/Desktop/cosc330_2023/assignment_1[?2004h[36m[[m[34mbwatso25@turing[m [32massignment_1[m[36m][m $ make
+[?2004lgcc -Wall -pedantic -g helpers.c -c 
+gcc -Wall -pedantic -g char_count.c helpers.o -o char_count
+]0;bwatso25@turing:~/Desktop/cosc330_2023/assignment_1[?2004h[36m[[m[34mbwatso25@turing[m [32massignment_1[m[36m][m $ make run
+[?2004l./char_count 4 text_files
+
+Processing complete on ring with 4 processes
+
+Process 1 got char a: 692391  | *********************************************
+Process 1 got char b: 134807  | ********
+Process 1 got char c: 207461  | *************
+Process 1 got char d: 373069  | ************************
+Process 1 got char e: 1075941 | **********************************************************************
+Process 1 got char f: 188771  | ************
+Process 1 got char g: 172157  | ***********
+Process 1 got char h: 567501  | ************************************
+Process 1 got char i: 594687  | **************************************
+Process 1 got char j: 10493   | *
+Process 1 got char k: 76828   | ****
+Process 1 got char l: 370823  | ************************
+Process 1 got char m: 236036  | ***************
+Process 1 got char n: 597631  | **************************************
+Process 1 got char o: 692079  | *********************************************
+Process 1 got char p: 145851  | *********
+Process 1 got char q: 9084    | *
+Process 1 got char r: 531129  | **********************************
+Process 1 got char s: 573744  | *************************************
+Process 1 got char t: 785160  | ***************************************************
+Process 1 got char u: 266169  | *****************
+Process 1 got char v: 87887   | *****
+Process 1 got char w: 208194  | *************
+Process 1 got char x: 12446   | *
+Process 1 got char y: 190450  | ************
+Process 1 got char z: 5401    | *
+]0;bwatso25@turing:~/Desktop/cosc330_2023/assignment_1[?2004h[36m[[m[34mbwatso25@turing[m [32massignment_1[m[36m][m $ ./char_count 8 text_files
+[?2004l
+Processing complete on ring with 8 processes
+
+Process 1 got char a: 692391  | *********************************************
+Process 1 got char b: 134807  | ********
+Process 1 got char c: 207461  | *************
+Process 1 got char d: 373069  | ************************
+Process 1 got char e: 1075941 | **********************************************************************
+Process 1 got char f: 188771  | ************
+Process 1 got char g: 172157  | ***********
+Process 1 got char h: 567501  | ************************************
+Process 1 got char i: 594687  | **************************************
+Process 1 got char j: 10493   | *
+Process 1 got char k: 76828   | ****
+Process 1 got char l: 370823  | ************************
+Process 1 got char m: 236036  | ***************
+Process 1 got char n: 597631  | **************************************
+Process 1 got char o: 692079  | *********************************************
+Process 1 got char p: 145851  | *********
+Process 1 got char q: 9084    | *
+Process 1 got char r: 531129  | **********************************
+Process 1 got char s: 573744  | *************************************
+Process 1 got char t: 785160  | ***************************************************
+Process 1 got char u: 266169  | *****************
+Process 1 got char v: 87887   | *****
+Process 1 got char w: 208194  | *************
+Process 1 got char x: 12446   | *
+Process 1 got char y: 190450  | ************
+Process 1 got char z: 5401    | *
+]0;bwatso25@turing:~/Desktop/cosc330_2023/assignment_1[?2004h[36m[[m[34mbwatso25@turing[m [32massignment_1[m[36m][m $ make clean
+[?2004lrm -f *~ *.o char_count
+]0;bwatso25@turing:~/Desktop/cosc330_2023/assignment_1[?2004h[36m[[m[34mbwatso25@turing[m [32massignment_1[m[36m][m $ exit
+[?2004lexit
+
+Script done on 2023-07-31 23:23:30+10:00 [COMMAND_EXIT_CODE="0"]
+4692
